@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- sytling page -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- font awesome for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="nav-left">
+                <a class="logo-text" href="">
+                    Codingin <span>Aja.</span>
+                </a>
+            </div>
+            <ul>
+                <li class="hamburger-menu">
+                    <a href="#">Beranda</a>
+                </li>
+                <li class="hamburger-menu">
+                    <a href="#content-kelas">Kelas</a>
+                </li>
+                <li class="hamburger-menu">
+                    <a href="#content-about">Tentang Kami</a>
+                </li>
+                <li class="hamburger-menu">
+                    <a href="#content-event">Event</a>
+                </li>
+                <li class="hamburger-menu">
+                    <a href="#content-testi">Testimoni</a>
+                </li>
+            </ul>
+
+            <div class="nav-right" id="barsmenuicon">
+                <button style="background-color: transparent; border: none; cursor: pointer" onclick="openNav()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+
+        </nav>
+
+        <!-- navbar toggle -->
+
+        <div class="hamburger-nav-container" id="hamburger-nav-container">
+            <a href="#" class="hamburger-active">Beranda</a>
+            <a href="#content-kelas">Kelas</a>
+            <a href="#content-about">Tentang Kami</a>
+            <a href="#content-event">Event</a>
+            <a href="#content-testi">Testimonial</a>
+        </div>
+
+    </header>
+    <!-- section  -->
+    <main>
+        <section class="section-hero">
+            <div id="content-hero">
+                <div class="landing-left">
+                    <h2>Bootcamp terbaik</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, quidem recusandae totam
+                        illo ducimus a veniam nemo, ea praesentium, exercitationem corrupti? Suscipit excepturi
+                        veritatis itaque labore dolorum earum doloribus quidem. Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Numquam ratione totam porro dignissimos molestiae cumque amet aliquam tempora
+                        reprehenderit provident hic explicabo tempore accusamus voluptatum earum sint at, veritatis
+                        quae.</p>
+                    <div class="btn">
+                        <button class="btn-kelas">Lihat</button>
+                        <button class="btn-kontak">Kontak</button>
+                    </div>
+                    <div class="semi-landing">
+                        <div class="content-semi">
+                            <h3>40</h3>
+                            <p>Batch</p>
+                        </div>
+                        <div class="content-semi">
+                            <h3>300++</h3>
+                            <p>Hiring Partner</p>
+                        </div>
+                        <div class="content-semi">
+                            <h3>500++</h3>
+                            <p>Alumni</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="landing-right">
+                    <img src="./assets/img/hero-photo.png" alt="logo-landing">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section-kelas">
+            <div id="content-kelas">
+
+                <h2>Kelas Kami</h2>
+
+                <article class="card-kelas">
+                    <img src="./assets/img/coding-fullstack.jpg" alt="foto-fullstack">
+                    <div class="card-kelas-text">
+                        <h3>Fullstack</h3>
+                        <span>Duration : 4 - 5 months</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis optio illo corrupti
+                            officiis dolor veritatis saepe! Expedita vitae laborum repellendus, quaerat eos inventore
+                            ullam,
+                            nemo optio dolorum dolores odio? Nemo totam recusandae natus magni, ex dignissimos mollitia
+                            soluta deserunt.</p>
+                    </div>
+                </article>
+
+                <article class="card-kelas">
+                    <img src="./assets/img/data-analysis.jpg" alt="foto-data-analysis">
+                    <div class="card-kelas-text">
+                        <h3>Data Analysis</h3>
+                        <span>Duration : 4 - 5 months</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis optio illo corrupti
+                            officiis dolor veritatis saepe! Expedita vitae laborum repellendus, quaerat eos inventore
+                            ullam,
+                            nemo optio dolorum dolores odio? Nemo totam recusandae natus magni, ex dignissimos mollitia
+                            soluta deserunt.</p>
+                    </div>
+                </article>
+
+                <article class="card-kelas">
+                    <img src="./assets/img/marketing.jpg" alt="foto-marketing">
+                    <div class="card-kelas-text">
+                        <h3>Marketing</h3>
+                        <span>Duration : 2 - 3 months</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis optio illo corrupti
+                            officiis dolor veritatis saepe! Expedita vitae laborum repellendus, quaerat eos inventore
+                            ullam,
+                            nemo optio dolorum dolores odio? Nemo totam recusandae natus magni, ex dignissimos mollitia
+                            soluta deserunt.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-about">
+            <div id="content-about">
+
+                <h2>Tentang kami</h2>
+
+                <div class="card-about">
+                    <div class="about-construc">
+                        <div class="about-text">
+                            <h3>Kami Berdiri Dari Tahun 2019</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore quis et
+                                ullam,
+                                ducimus consectetur necessitatibus vitae sunt autem harum! Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Sunt repellendus iste facilis laborum aut dignissimos,
+                                temporibus eius necessitatibus vitae. Quam ab tempore accusamus! Optio natus, saepe et
+                                nihil architecto neque.</p>
+                        </div>
+                        <div class="photo-construct">
+                            <img class="img-construc" src="./assets/img/construc.jpg" alt="foto-bangunan">
+                            <img class="img-construc-jadi" src="./assets/img/building-jadi.jpg"
+                                alt="foto-bangunan-jadi">
+                        </div>
+                    </div>
+
+                    <div class="about-graduate">
+                        <img class="img-graduate" src="./assets/img/lulusan.jpg" alt="foto-lulusan">
+                        <div class="about-text">
+                            <h3>Lebih Dari 500+ Orang Lulusan Langsung Bekerja</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, rerum maiores eum, quis
+                                animi ducimus odit omnis neque expedita, doloribus provident nostrum nihil
+                                necessitatibus.
+                                Reiciendis impedit quibusdam quaerat nesciunt incidunt.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section-event">
+            <h2>Event & Workshop</h2>
+            <div id="content-event">
+                <div class="main-event">
+                    <div class="card-event">
+                        <img src="./assets/img/roboto.jpg" alt="photo-event">
+                        <div class="card-event-text">
+                            <a href="#">
+                                Teknologi Pada Masa Kini
+                            </a>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsa ut voluptates vel
+                                provident, fuga autem praesentium iure rem quibusdam. Dignissimos cum facere est,
+                                numquam
+                                quasi
+                                accusamus quas quae?</p>
+                        </div>
+                    </div>
+                    <div class="card-event">
+                        <img src="./assets/img/sosmed.jpg" alt="photo-event">
+                        <div class="card-event-text">
+                            <a href="#">
+                                Perkembangan Sosial Media Pada Masa Kini
+                            </a>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsa ut voluptates vel
+                                quod
+                                provident, fuga autem praesentium iure rem quibusdam. Dignissimos cum facere est,
+                                numquam
+                                quasi
+                                accusamus quas quae?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <aside>
+                    <div class="card-narasum">
+                        <img src="./assets/img/M-I-M.png" alt="photo-narasum">
+                        <div class="card-narasum-text">
+                            <p class="nara-text">Narasumber</p>
+                            <h3>Muhammad Irsyad Marwan</h3>
+                            <p class="jobs">Developer</p>
+                            <p>Nama Panggilan : Marwan</p>
+                            <p>Tanggal Lahir : 08 Juli 2000</p>
+                            <p>Gender : Laki- Laki</p>
+                            <p>Agama : Islam</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section-testi">
+            <h2>Testimonial</h2>
+            <p><i class="fa-solid fa-quote-left"></i>
+                Ayo Gabung Dengan 500++ Alumni
+                <i class="fa-solid fa-quote-right"></i>
+            <p class="testi-text">Contoh Beberapa Testimoni Alumni</p>
+            </p>
+            <div id="content-testi">
+                <div class="card">
+                    <img src="./assets/img/baba.jpg" alt="photo-baba">
+                    <div class="card-text">
+                        <h3>Baik Sekali Dalam Pembelajaran</h3>
+                        <p>PT Blue Tech</p>
+                        <p>- Ashabul</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/roy.jpg" alt="photo-roy">
+                    <div class="card-text">
+                        <h3>Sangat Direkomendasikan</h3>
+                        <p>PT Mitrais</p>
+                        <p>- Maulana</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/hana.jpg" alt="photo-hana">
+                    <div class="card-text">
+                        <h3>Materi Yang Sangat Baik</h3>
+                        <p>PT Teknologi Sejahtera</p>
+                        <p>- Hana</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-left">
+
+            <h2>Codingin Aja.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis deserunt odit
+                accusantium
+                error nostrum quos molestias, ipsum neque odio! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Eum, neque voluptate expedita commodi eligendi consequatur mollitia magnam est unde tenetur?
+                Suscipit
+                consectetur nam quam animi autem iure sunt ipsum sapiente?</p>
+
+        </div>
+
+
+
+        <div class="footer-right">
+            <div class="footer-link">
+                <div class="link-information">
+                    <h3>Information</h3>
+                    <a href="#content-kelas">Kelas</a>
+                    <a href="#content-about">Tentang Kami</a>
+                    <a href="#content-testi">Testimonial</a>
+                </div>
+                <div class="link-support">
+                    <h3>Support</h3>
+                    <a href="#">FAQ</a>
+                    <a href="#">Term & Conditions</a>
+                </div>
+                <div class="link-location">
+                    <h3>Location</h3>
+                    <a href="#">Kalibata</a>
+                </div>
+
+            </div>
+
+            <div class="footer-copyright">
+                <P>copyright @ 2023 PT. Teknologi Semesta. All rights reserved</P>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
